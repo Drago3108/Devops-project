@@ -13,11 +13,14 @@ Download [Docker Desktop](https://www.docker.com/products/docker-desktop) for Ma
 
 > If you're using [Docker Desktop on Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows), you can run the Linux version by [switching to Linux containers](https://docs.docker.com/docker-for-windows/#switch-between-windows-and-linux-containers), or run the Windows containers version.
 
-Run in this directory:
+### How to deploy
 ```
-docker-compose up
+git clone https://github.com/dhamodaranv/Devops-project.git
+cd Devops-project
+docker-compose up -d
 ```
-The app will be running at [http://localhost:8080](http://localhost:8080).
+
+The app will be running at [http://localhost:8080](http://localhost:8080). Use `curl` or <b>browser</b> to see the page response.
 
 Notes
 -----
