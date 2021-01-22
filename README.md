@@ -27,4 +27,4 @@ Notes
 
 ## Authors
 
-- Author: Dhamodharan V T [dhamodaranthulasigajendhiran](mailto:dhamodaranthulasigajendhiran@gmail.com)
+- Author: Dhamodaran V T [dhamodaranthulasigajendiran@gmail.com](mailto:dhamodaranthulasigajendiran@gmail.com)
