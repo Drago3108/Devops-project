@@ -1,23 +1,21 @@
 version: "3"
 services:
-   nginxwebapp:
-     container_name: nginx-app
+   nginx:
+     container_name: nginx
      image: nginx
-
      volumes:
-       - $PWD/final/nginx.conf:/etc/nginx/conf.d/nginx.conf
+       - ./default.conf:/etc/nginx/conf.d/default.conf
      ports:
        - 8080:80
-     networks: 
-       - dhamo
+     networks:
+       - proxy
 
-   customapp:
-     container_name: webapp
+   server:
+     container_name: server
      image: 9962976521/dhamu-app:1.0
-     ports:
-       - 8088:80
-     networks: 
-       - dhamo
+     networks:
+       - proxy 
+
 networks:
-  dhamo:
-  external: 
+  proxy:
+
