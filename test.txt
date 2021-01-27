@@ -1,1 +1,1 @@
-#This file is for check the jenkins integration.
+#This test file is for check the jenkins integration.
